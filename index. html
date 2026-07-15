@@ -3,6 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vennela Design Studio - Jewellery</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#0a0a0a;color:#e5e5e5;font-family:'Poppins',sans-serif;font-weight:300;}
+header{background:#000;padding:30px 20px;text-align:center;border-bottom:2px solid #D4AF37;}
+header h1{color:#D4AF37;font-family:'Playfair Display',serif;font-size:34px;font-weight:600;letter-spacing:4px;}
+.hero{padding:50px 20px;text-align:center;}
+.hero h2{color:#D4AF37;font-family:'Playfair Display',serif;font-size:28px;font-weight:500;}
+.hero p{font-size:14px;color:#aaa;}
+.products{display:flex;flex-wrap:wrap;justify-content:center;gap:25px;padding:30px 20px;max-width:1100px;margin:auto;}
+.card{background:#111;border:1px solid #2a2a2a;border-radius:15px;padding:18px;width:320px;text-align:center;transition:0.3s;}
+.card:hover{border-color:#D4AF37;}
+.card img{width:100%;height:270px;object-fit:cover;border-radius:10px;}
+.card h3{color:#D4AF37;font-family:'Playfair Display',serif;font-size:19px;font-weight:500;margin:15px 0 5px;}
+.card p{font-size:13px;color:#999;}
+.price{color:#D4AF37;font-size:22px;margin:12px 0;}
+.btn{background:#D4AF37;color:#000;padding:12px;border:none;border-radius:8px;width:100%;cursor:pointer;font-size:15px;letter-spacing:1px;}
+.btn:hover{background:#e6c757;}
+footer{background:#000;text-align:center;padding:20px;border-top:2px solid #D4AF37;color:#777;font-size:13px;margin-top:40px;}
+</style>
+</head>
+<body>
+<header><h1>VENNELA DESIGN STUDIO</h1></header>
+<section class="hero">
+<h2>Traditional & Modern Jewellery</h2>
+<p>Vijayawada | Narasaraopet | COD Available</p>
+</section>
+<section class="products">
+<div class="card">
+<img src="https://i.imgur.com/An9yPDm.jpg" alt="Jhumka">
+<h3>Temple Jhumka Earrings</h3>
+<p>Antique Lakshmi Devi design</p>
+<div class="price">₹4,999</div>
+<button class="btn">Buy Now</button>
+</div>
+<div class="card">
+<img src="https://i.imgur.com/An-LvWdC.jpg" alt="Haram">
+<h3>Lakshmi Devi Long Haram</h3>
+<p>22k Gold plated Bridal wear</p>
+<div class="price">₹18,999</div>
+<button class="btn">Buy Now</button>
+</div>
+</section>
+<footer>
+<p>© 2026 Vennela Design Studio | Vijayawada | Narasaraopet</p>
+</footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vennela Design Studio - Jewellery Shop</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
